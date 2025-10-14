@@ -194,7 +194,7 @@ export default function HomePage() {
               whileHover={{ scale: 1.03 }}
               className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition"
             >
-              <p className="text-gray-600 mb-4">"{t.text}"</p>
+              <p className="text-gray-600 mb-4">&quot;{t.text}&quot;</p>
               <h4 className="font-semibold">{t.name}</h4>
             </motion.div>
           ))}
