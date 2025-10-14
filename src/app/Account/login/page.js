@@ -76,7 +76,7 @@ export default function LoginPage() {
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Nom d'utilisateur
+              Nom d&apos;utilisateur
             </label>
             <input
               type="text"
@@ -123,9 +123,9 @@ export default function LoginPage() {
         </form>
 
         <p className="text-center text-gray-500 text-sm mt-6">
-          Vous n'avez pas de compte ?{" "}
+          Vous nd&apos;avez pas de compte ?{" "}
           <Link href="/Account/signin" className="text-indigo-600 hover:underline">
-            S'inscrire
+            S&apos;inscrire
           </Link>
         </p>
 

@@ -77,7 +77,7 @@ export default function SignInPage() {
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Nom d'utilisateur
+              Nom d&apos;utilisateur
             </label>
             <input
               type="text"
@@ -139,7 +139,7 @@ export default function SignInPage() {
             type="submit"
             className="w-full bg-indigo-600 text-white py-2 rounded-lg font-medium hover:bg-indigo-700 transition"
           >
-            S'inscrire
+            S&apos;inscrire
           </button>
         </form>
 
